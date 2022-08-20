@@ -4,7 +4,9 @@ import sun.security.mscapi.CPublicKey;
 
 import java.io.UnsupportedEncodingException;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -32,13 +34,14 @@ public class test1 {
         System.out.println(curStr1);
         System.out.println(curStr2);*/
 
+        String str = "13111111111,12111111111";
+
+        System.out.println(str.split(";")[0]);
+
 
     }
     public static void printArr(int[] arr){
-        for(int a : arr){
-            System.out.print(a);
-        }
-        System.out.println();
+
     }
 
     /*public static void mergeSort1(int[] arr) {
@@ -89,6 +92,9 @@ public class test1 {
         }
         System.out.println();
     }*/
+
+
+
 }
 
    
